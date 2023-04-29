@@ -317,7 +317,12 @@
   article > p {
     margin: 0.25em 1rem 1rem;
   }
-
+  #about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
   #about > h2 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -578,7 +583,7 @@
 
   .get_cv {
     box-sizing: border-box;
-    width: 288px;
+    width: 95%;
     background: #1a2236;
     margin-left: 13%;
     padding-left: 13%;
@@ -605,5 +610,10 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    width: 96%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
   }
 }
