@@ -597,7 +597,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     text-align: center;
     color: #fff;
   }
@@ -610,7 +609,6 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    
     margin-left: auto;
     margin-right: auto;
     width: 95%;
