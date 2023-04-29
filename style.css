@@ -1,3 +1,17 @@
-h1 {
-  color: cadetblue;
+.right-img {
+    position: absolute;
+    width: 6.938rem;
+    height: 4.625rem;
+    left: -0.125rem;
+    top: 0rem;
+}
+.bar_icon {
+    position: absolute;
+    width: 1.25rem;
+    height: 0.875rem;
+    right: 1rem;
+    top: 1.188rem;
+}
+.nav-bar {
+    display: none;
 }
