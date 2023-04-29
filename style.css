@@ -388,7 +388,7 @@
     #contact {
         position: relative;
         background: #F9F9FA;
-        height: 44.5rem;
+        height: 43.5rem;
     }
     .top_icon {
         
@@ -537,4 +537,33 @@
         color: #1A2236;
         background: #fff;
     }
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+    
+      }
+      
+      .flex-container > div {
+           /* background-color: #f1f1f1; */
+        width: 100px;
+        /* margin: 10px; */
+        text-align: center;
+        line-height: 4.688rem;
+        font-size: 1.875rem;
+      }
+      #footer {
+        background-color: #1A2236;
+      }
+      #footer >h1{
+        font-family: 'Poppins', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        color: #92DCDC;
+        padding: 1rem;
+        margin-left: 5rem;
+        padding-top: 3rem;
+        margin-bottom: 0;
+      }
 }
