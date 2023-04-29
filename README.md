@@ -6,7 +6,7 @@
   <img src="Kamran.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>Setup and mobile version skeleton</b></h3>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Setup and mobile version skeleton <a name="about-project"></a>
 
 > Portfolio website in which we have created first 2 section of mobile website using the template 1. I created it using HTML, CSS
 

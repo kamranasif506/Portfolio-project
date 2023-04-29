@@ -1,156 +1,174 @@
-@media only screen and (min-width: 768px) {
-    .right-img {
-        position: absolute;
-        width: 7.938rem;
-        height: 5.625rem;
-        left: -0.125rem;
-        top: 0rem;
-    }
-    header li {
-        list-style: none;
-        display: inline-block;
-        padding: 0 20px;
-    }
-    header ul {
-        position: absolute;
-        right: 1rem;
-    }
-    .bar_icon {
-        display: none;
-    }
-    .nav-bar {
-        position: absolute;
-        display: block !important;
-        width: 1.5rem;
-        height: 0.875rem;
-        right: 1.3rem;
-        top: 1.35rem;
-    }
-    .heading {
-        position: absolute;
-        width: 14.95rem;
-        height: 6.25rem;
-        left: 0.75rem;
-        top: 3.25rem;
-        font-family: 'Playfair Display';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 4.29rem;
-        line-height: 4.0rem;
-        color: #1A2236;
-    }
-    .description {
-        position: absolute;
-        width: 20rem;
-        height: 19.188rem;
-        left: 1rem;
-        top: 14.813rem;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.313rem;
-        letter-spacing: -0.01em;
-        color: #1A2236;
-    }
-    .second_part {
-        display:block;
-        margin-top: 5%;
-    }
-    .collaboration_btn {
-        box-sizing: border-box;
-        position: absolute;
-        width: 22rem;
-        height: 3.9rem;
-        left: 1rem;
-        font-size: 1.5rem;
-        top: 26rem;
-        background: #1A2236;
-        color: #FFFFFF;
-    }
-    .collaboration_btn:hover {
-        border: 1px solid #1A2236 !important;
-        background: #FFFFFF;
-        color: #1A2236;
-    }
-    .slider_img {
-        position: absolute;
-        width: 29%;
-        height: 160px;
-        left: 0px;
-        top: 32rem;
-    }
+* {
+  padding: 0;
+  font-family: inter, serif;
 }
+
+@media only screen and (min-width: 768px) {
+  .right-img {
+    position: absolute;
+    width: 7.938rem;
+    height: 5.625rem;
+    left: -0.125rem;
+    top: 0;
+  }
+
+  header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  header ul {
+    position: absolute;
+    right: 1rem;
+  }
+  .bar_icon {
+    display: none;
+  }
+  .heading {
+    position: absolute;
+    width: 14.95rem;
+    height: 6.25rem;
+    left: 0.75rem;
+    top: 3.25rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.29rem;
+    line-height: 4rem;
+    color: #1a2236;
+  }
+
+  .description {
+    position: absolute;
+    width: 20rem;
+    height: 19.188rem;
+    left: 1rem;
+    top: 14.813rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  .second_part {
+    display: block;
+    margin-top: 5%;
+  }
+
+  .collaboration_btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 22rem;
+    height: 3.9rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    top: 26rem;
+    background: #1a2236;
+    color: #fff;
+  }
+
+  .collaboration_btn:hover {
+    border: 1px solid #1a2236 !important;
+    background: #fff;
+    color: #1a2236;
+  }
+
+  .slider_img {
+    position: absolute;
+    width: 29%;
+    height: 160px;
+    left: 0;
+    top: 32rem;
+  }
+}
+
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-    .right-img {
-        position: absolute;
-        width: 7.938rem;
-        height: 5.625rem;
-        left: -0.125rem;
-        top: 0rem;
-    }
-    .bar_icon {
-        position: absolute;
-        width: 1.5rem;
-        height: 0.875rem;
-        right: 1.3rem;
-        top: 1.35rem;
-    }
-    .nav-bar {
-        display: none;
-    }
-    .heading {
-        position: absolute;
-        width: 14.95rem;
-        height: 6.25rem;
-        left: 0.75rem;
-        top: 3.25rem;
-        font-family: 'Playfair Display';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 4.29rem;
-        line-height: 4.0rem;
-        color: #1A2236;
-    }
-    .description {
-        position: absolute;
-        width: 20rem;
-        height: 19.188rem;
-        left: 1rem;
-        top: 14.813rem;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.313rem;
-        letter-spacing: -0.01em;
-        color: #1A2236;
-    }
-    .second_part {
-        display:block;
-        margin-top: 5%;
-    }
-    .collaboration_btn {
-        box-sizing: border-box;
-        position: absolute;
-        width: 22rem;
-        height: 3.9rem;
-        left: 1rem;
-        font-size: 1.5rem;
-        top: 26rem;
-        background: #1A2236;
-        color: #FFFFFF;
-    }
-    .collaboration_btn:hover {
-        border: 1px solid #1A2236 !important;
-        background: #FFFFFF;
-        color: #1A2236;
-    }
-    .slider_img {
-        position: absolute;
-        width: 100%;
-        height: 160px;
-        left: 0px;
-        top: 32rem;
-    }
+  .right-img {
+    position: absolute;
+    width: 7.938rem;
+    height: 5.625rem;
+    left: -0.125rem;
+    top: 0;
+  }
+
+  .bar_icon {
+    position: absolute;
+    width: 1.5rem;
+    height: 0.875rem;
+    right: 1.3rem;
+    top: 1.35rem;
+  }
+
+  .nav-bar {
+    display: none !important;
+  }
+
+  .heading {
+    position: absolute;
+    width: 14.95rem;
+    height: 6.25rem;
+    left: 0.75rem;
+    top: 3.25rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.29rem;
+    line-height: 4rem;
+    color: #1a2236;
+  }
+
+  .description {
+    position: absolute;
+    width: 20rem;
+    height: 19.188rem;
+    left: 1rem;
+    top: 14.813rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  .second_part {
+    display: block;
+    margin-top: 5%;
+  }
+
+  .collaboration_btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 22rem;
+    height: 3.9rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    top: 26rem;
+    background: #1a2236;
+    color: #fff;
+  }
+
+  .collaboration_btn:hover {
+    border: 1px solid #1a2236 !important;
+    background: #fff;
+    color: #1a2236;
+  }
+  .collaboration_btn:active {
+    border: 2px solid #1a2236 !important;
+    background: #fff;
+    color: #1a2236;
+    font-weight: bolder;
+  }
+  .slider_img {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    left: 0;
+    top: 32rem;
+  }
 }
