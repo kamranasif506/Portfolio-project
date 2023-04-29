@@ -337,4 +337,204 @@
         margin-top: 3%;
         color: #1A2236;
     }
+    #languages {
+        width: 100%;
+        height: 18.063rem;
+        background: #1C528A;
+        position: relative;
+    }
+    #frameworks {
+        width: 100%;
+        height: 18.063rem;
+        background: #E2505C;
+        position: relative;
+    }
+    #skills {
+        width: 100%;
+        height: 18.063rem;
+        background: #FEBF52;
+        position: relative;
+    }
+    .langs {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        /* identical to box height */
+        padding: 11%;
+        margin-left: 20%;
+
+        color: #FFFFFF;
+
+    }
+    .hash {
+        position: absolute;
+        width: 6.375rem;
+        height: 6.375rem;
+        right: 0;
+        bottom: 0;
+    }
+    .lang-items {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+        letter-spacing: -0.0525em;
+
+        color: #FFFFFF;
+    }
+    #contact {
+        position: relative;
+        background: #F9F9FA;
+        height: 44.5rem;
+    }
+    .top_icon {
+        
+        position: absolute;
+        width: 7.938rem;
+        height: 5.625rem;
+        left: -1rem;
+        top: 1rem;
+        
+    }
+    #contact >h1 {
+        position: absolute;
+        width: 100%;
+        height: 3.125rem;
+        left: 1rem;
+        top: 6rem;
+
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.125rem;
+        line-height: 100%;
+        /* identical to box height, or 50px */
+
+
+        color: #1A2236;
+    }
+    #contact >p {
+        position: absolute;
+        width: 100%;
+        height: 63px;
+        left: 1rem;
+        top: 12rem;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.27rem;
+        letter-spacing: -0.01em;
+
+        color: #1A2236;
+    }
+    .label-name {
+        position: absolute;
+        width: 100%;
+        height: 0.98rem;
+        left: 1rem;
+        top: 20rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.625rem;
+        line-height: 0.96rem;
+        /* identical to box height */
+        color: #7D7C84;
+
+    }
+    .input-name {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 92%;
+        height: 3.25rem;
+        left: 1rem;
+        top: 21rem;
+
+        background: #FFFFFF;
+        border: 1px solid #1A2236;
+        border-radius: 4px;
+    }
+    .label-email {
+        position: absolute;
+        width: 100%;
+        height: 0.98rem;
+        left: 1rem;
+        top: 25rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.625rem;
+        line-height: 0.96rem;
+        /* identical to box height */
+        color: #7D7C84;
+
+    }
+    .input-email {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 92%;
+        height: 3.25rem;
+        left: 1rem;
+        top: 26rem;
+
+        background: #FFFFFF;
+        border: 1px solid #1A2236;
+        border-radius: 4px;
+    }
+    .label-message {
+        position: absolute;
+        width: 100%;
+        height: 0.98rem;
+        left: 1rem;
+        top: 30rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.625rem;
+        line-height: 0.96rem;
+        /* identical to box height */
+        color: #7D7C84;
+
+    }
+    .input-message {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 92%;
+        height: 7rem;
+        margin-bottom: 3%;
+        left: 1rem;
+        top: 31rem;
+
+        background: #FFFFFF;
+        border: 1px solid #1A2236;
+        border-radius: 4px;
+    }
+    .send_feeed {
+        position: absolute;
+        width: 92%;
+        color: white;
+        height: 2.75rem;
+        left: 1rem;
+        top: 40rem;
+        font-size: 1rem;    
+        background: #1A2236;
+    }
+    .send_feeed:hover {
+        border: 1px solid #1a2236 !important;
+        color: #1A2236;
+        background: #fff;
+    }
+    .send_feeed:active {
+        border: 2px solid #1a2236 !important;
+        color: #1A2236;
+        background: #fff;
+    }
 }
