@@ -317,12 +317,14 @@
   article > p {
     margin: 0.25em 1rem 1rem;
   }
+
   #about {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
   }
+
   #about > h2 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -585,7 +587,6 @@
     box-sizing: border-box;
     width: 95%;
     background: #1a2236;
-    margin-left: 13%;
     padding-left: 13%;
     padding-top: 1%;
     font-family: 'Poppins', serif;
@@ -596,7 +597,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* identical to box height */
 
     text-align: center;
     color: #fff;
@@ -610,8 +610,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 96%;
-    display: block;
+    /* width: 96%; */
     margin-left: auto;
     margin-right: auto;
     width: 95%;
