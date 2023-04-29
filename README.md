@@ -60,6 +60,8 @@
 ### Key Features <a name="key-features"></a>
 
 - Added index.html file
+- Created navbar/header
+- Created info section of the website
 - Added style.css file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
