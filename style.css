@@ -255,6 +255,7 @@
     backdrop-filter: blur(0.5px);
     margin-top: 2%;
     margin-bottom: 3%;
+    font-size: 1rem;
   }
 
   .btn_text {
