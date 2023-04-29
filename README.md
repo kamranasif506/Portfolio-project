@@ -63,6 +63,11 @@
 - Created toolbar (or header).
 - Created headline section (right after the header).
 - Added style.css file
+- Added Portfolio Section
+- Added About Section
+- Added Language, Skills, frameworks Section
+- Added Contact Section
+- Added footer Sectiom
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,8 +145,8 @@ You can deploy this project using github pages.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Add more section in the body.
-- [ ] Add footer.
+- [ ] Add Design for the Desktop screens
+- [ ] Add Design for the Tablet screens.
 - [ ] Add more styles to index.html file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
