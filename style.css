@@ -89,6 +89,11 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
   .right-img {
     position: absolute;
     width: 7.938rem;
