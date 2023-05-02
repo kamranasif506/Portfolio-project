@@ -153,6 +153,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 22rem;
+    cursor: pointer;
     height: 3.9rem;
     left: 1rem;
     font-size: 1.5rem;
@@ -251,6 +252,7 @@
     margin-left: 5%;
     height: 2.75rem;
     color: #fff;
+    cursor: pointer;
     background: #1a2236;
     border: 0.333333px solid rgb(255 255 255);
     backdrop-filter: blur(0.5px);
@@ -530,6 +532,7 @@
 
   .send_feeed {
     position: absolute;
+    cursor: pointer;
     width: 92%;
     color: white;
     height: 2.75rem;
@@ -588,6 +591,7 @@
     width: 95%;
     background: #1a2236;
     padding-left: 13%;
+    cursor: pointer;
     padding-top: 1%;
     font-family: 'Poppins', serif;
     font-style: normal;
