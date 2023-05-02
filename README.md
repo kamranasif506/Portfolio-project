@@ -36,7 +36,7 @@
 
 # 📖 Setup and mobile version skeleton <a name="about-project"></a>
 
-> Portfolio website in which we have created first 2 section of mobile website using the template 1. I created it using HTML, CSS
+> Portfolio website in which we have created first contact section of mobile website using the template 5. I created it using HTML, CSS
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -137,6 +137,11 @@ You can deploy this project using github pages.
 - Twitter: [@twitterhandle](https://twitter.com/kamiasif55)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamran-asif-76160926b/)
 
+👤 Nohain Islam
+
+- GitHub: [@githubhandle](https://github.com/Zafron047)
+- Twitter: [@twitterhandle](https://https//twitter.com/NohainZ)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
