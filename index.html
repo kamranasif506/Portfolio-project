@@ -4,12 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700">
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -217,15 +212,25 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-      <form class="form-fields">
-        <lable class="label-name">Your Name</lable>
-        <input type="text" class="input-name" placeholder="Enter your name" value="Kamran" />
-        <lable class="label-email">Your Email</lable>
-        <input type="email" class="input-email" placeholder="Enter your email" value="Kamran" />
-        <lable class="label-message">Your Message</lable>
-        <textarea rows="3" class="input-message" placeholder="Enter your Message">Kamran</textarea>
-        <button class="send_feeed">Send collaboration</button>
-      </form>
+      <div class="form-section">
+        <form class="form-fields" action="https://formspree.io/f/xdovbgea" method="POST">
+          <div class="form-element">
+            <lable class="label-name">Your Name</lable>
+            <input type="text" name="name" class="input-name" maxlength="30" placeholder="Enter your name here..." value="Kamran" required />
+          </div>
+          <div class="form-element">
+            <lable class="label-email">Your Email</lable>
+            <input type="email" name="email" class="input-email" placeholder="Enter your email here..." value="kamranasif506@gm.." required />
+          </div>
+          <div class="form-element">
+            <lable class="label-message">Your Message</lable>
+            <textarea rows="3" name="message" class="input-message" maxlength="500" placeholder="Enter your message here..." required>Kamran</textarea>
+          </div>
+          <div class="form-element">
+            <button type="submit" class="send_feeed">Send collaboration</button>
+          </div>  
+        </form>
+      </div>
     </section>
     <footer id="footer">
       <h2>

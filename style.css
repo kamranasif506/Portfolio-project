@@ -155,7 +155,7 @@
     width: 22rem;
     cursor: pointer;
     height: 3.9rem;
-    left: 1rem;
+    left: 0.7rem;
     font-size: 1.5rem;
     top: 26rem;
     background: #1a2236;
@@ -468,9 +468,17 @@
     height: 3.25rem;
     left: 1rem;
     top: 21rem;
+    color: #1A2236;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #DFDFE0;
     border-radius: 4px;
+    padding-top: 4%;
+    padding-left: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
   }
 
   .label-email {
@@ -497,8 +505,15 @@
     left: 1rem;
     top: 26rem;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #DFDFE0;
     border-radius: 4px;
+    padding-top: 4%;
+    padding-left: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
   }
 
   .label-message {
@@ -526,8 +541,24 @@
     left: 1rem;
     top: 31rem;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #DFDFE0;
     border-radius: 4px;
+    padding-top: 4%;
+    padding-left: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+  }
+  .input-email:focus {
+    border: 1px solid #1A2236 !important;
+  }
+  .input-message:focus {
+    border: 1px solid #1A2236 !important;
+  }
+  .input-name:focus {
+    border: 1px solid #1A2236 !important;
   }
 
   .send_feeed {
