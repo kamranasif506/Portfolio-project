@@ -468,9 +468,9 @@
     height: 3.25rem;
     left: 1rem;
     top: 21rem;
-    color: #1A2236;
+    color: #1a2236;
     background: #fff;
-    border: 1px solid #DFDFE0;
+    border: 1px solid #dfdfe0;
     border-radius: 4px;
     padding-top: 4%;
     padding-left: 3%;
@@ -505,7 +505,7 @@
     left: 1rem;
     top: 26rem;
     background: #fff;
-    border: 1px solid #DFDFE0;
+    border: 1px solid #dfdfe0;
     border-radius: 4px;
     padding-top: 4%;
     padding-left: 3%;
@@ -541,7 +541,7 @@
     left: 1rem;
     top: 31rem;
     background: #fff;
-    border: 1px solid #DFDFE0;
+    border: 1px solid #dfdfe0;
     border-radius: 4px;
     padding-top: 4%;
     padding-left: 3%;
@@ -551,14 +551,17 @@
     font-size: 0.875rem;
     line-height: 1.313rem;
   }
+
   .input-email:focus {
-    border: 1px solid #1A2236 !important;
+    border: 1px solid #1a2236 !important;
   }
+
   .input-message:focus {
-    border: 1px solid #1A2236 !important;
+    border: 1px solid #1a2236 !important;
   }
+
   .input-name:focus {
-    border: 1px solid #1A2236 !important;
+    border: 1px solid #1a2236 !important;
   }
 
   .send_feeed {
