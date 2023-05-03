@@ -33,7 +33,7 @@
     height: 6.25rem;
     left: 0.75rem;
     top: 3.25rem;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display, sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 4.29rem;
@@ -88,7 +88,7 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (max-width: 376px) {
   body {
     width: 100%;
     padding: 0;
@@ -121,7 +121,7 @@
     height: 6.25rem;
     left: 0.75rem;
     top: 3.25rem;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display, sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 4.29rem;
@@ -191,9 +191,10 @@
     /* position: absolute; */
     width: 181px;
     height: 50px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display, serif';
     font-style: normal;
     font-weight: 400;
+    padding-left: 1rem;
     font-size: 50px;
     line-height: 100%;
     color: #1a2236;
@@ -328,7 +329,7 @@
   }
 
   #about > h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display, serif';
     font-style: normal;
     font-weight: 400;
     font-size: 3.125rem;
@@ -419,7 +420,7 @@
     height: 3.125rem;
     left: 1rem;
     top: 6rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display, serif';
     font-style: normal;
     font-weight: 400;
     font-size: 3.125rem;
@@ -472,8 +473,9 @@
     background: #fff;
     border: 1px solid #dfdfe0;
     border-radius: 4px;
-    padding-top: 4%;
-    padding-left: 3%;
+    padding-top: 1.438rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -507,8 +509,9 @@
     background: #fff;
     border: 1px solid #dfdfe0;
     border-radius: 4px;
-    padding-top: 4%;
-    padding-left: 3%;
+    padding-top: 1.438rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -543,8 +546,9 @@
     background: #fff;
     border: 1px solid #dfdfe0;
     border-radius: 4px;
-    padding-top: 4%;
-    padding-left: 3%;
+    padding-top: 0.875rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
