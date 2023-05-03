@@ -39,7 +39,7 @@ body {
 
 .nav-bar li {
   margin-left: 50px;
-  position: relative; /* add relative position to parent li */
+  position: relative; 
 }
 
 .nav-bar a {
@@ -49,7 +49,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
 
   text-align: right;
 
@@ -59,17 +58,17 @@ body {
 .nav-bar a::after {
   content: "";
   position: absolute;
-  bottom: 0; /* set the bottom position to 0 */
+  bottom: 0; 
   left: 39%;
   transform: translateX(-50%);
   width: 0;
   height: 2px;
   background-color: black;
-  transition: width 0.2s ease-in-out; /* change the transition property to width */
+  transition: width 0.2s ease-in-out; 
 }
 
 .nav-bar a:hover::after {
-  width: 73%; /* change width to 75% on hover */
+  width: 73%; 
 }
 
 
