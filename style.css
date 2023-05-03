@@ -88,7 +88,7 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (max-width: 376px) {
   body {
     width: 100%;
     padding: 0;
@@ -153,8 +153,9 @@
     box-sizing: border-box;
     position: absolute;
     width: 22rem;
+    cursor: pointer;
     height: 3.9rem;
-    left: 1rem;
+    left: 0.7rem;
     font-size: 1.5rem;
     top: 26rem;
     background: #1a2236;
@@ -190,9 +191,10 @@
     /* position: absolute; */
     width: 181px;
     height: 50px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
+    padding-left: 1rem;
     font-size: 50px;
     line-height: 100%;
     color: #1a2236;
@@ -251,6 +253,7 @@
     margin-left: 5%;
     height: 2.75rem;
     color: #fff;
+    cursor: pointer;
     background: #1a2236;
     border: 0.333333px solid rgb(255 255 255);
     backdrop-filter: blur(0.5px);
@@ -466,9 +469,18 @@
     height: 3.25rem;
     left: 1rem;
     top: 21rem;
+    color: #1a2236;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #dfdfe0;
     border-radius: 4px;
+    padding-top: 1.438rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
   }
 
   .label-email {
@@ -495,8 +507,16 @@
     left: 1rem;
     top: 26rem;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #dfdfe0;
     border-radius: 4px;
+    padding-top: 1.438rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
   }
 
   .label-message {
@@ -524,12 +544,33 @@
     left: 1rem;
     top: 31rem;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #dfdfe0;
     border-radius: 4px;
+    padding-top: 0.875rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+  }
+
+  .input-email:focus {
+    border: 1px solid #1a2236 !important;
+  }
+
+  .input-message:focus {
+    border: 1px solid #1a2236 !important;
+  }
+
+  .input-name:focus {
+    border: 1px solid #1a2236 !important;
   }
 
   .send_feeed {
     position: absolute;
+    cursor: pointer;
     width: 92%;
     color: white;
     height: 2.75rem;
@@ -588,6 +629,7 @@
     width: 95%;
     background: #1a2236;
     padding-left: 13%;
+    cursor: pointer;
     padding-top: 1%;
     font-family: 'Poppins', serif;
     font-style: normal;
