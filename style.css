@@ -2,12 +2,13 @@
   padding: 0;
   font-family: inter, serif;
 }
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 @media only screen and (min-width: 768px) {
-  body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
+  
   .bar_icon {
     display: none;
   }
@@ -280,7 +281,7 @@
   
   .overlay-project2 {
     position: absolute;
-    width: 416px;
+    width: 100%;;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(12px);
     bottom: -15px;
@@ -359,6 +360,7 @@
     width: 10.755%;
     align-self: flex-end;
     margin-top: 5%;
+    margin-bottom: 0.2%;
   }
   .box_6 {
     width: 24.482%;
@@ -391,6 +393,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
+    margin-top: -0.5%;
   }
   .desktop-grid-item3 {
     display: flex;
@@ -600,6 +603,7 @@
     grid-template-columns: 10% 20% 40% 10% 20%;
     grid-gap: 0;
     background: #F9F9FA;
+    margin-top: 10%;
   }
   .form-fields {
     display: grid;
@@ -759,6 +763,7 @@
     display: grid;
     grid-template-columns: 30% 35% 35%; /* two columns with equal width */
     grid-gap: 20px;
+    overflow: hidden;
   }
   .col1 {
     grid-column: 1 / 2;
@@ -798,25 +803,7 @@
     text-decoration: none;
   }
 
-  .get_cv {
-    box-sizing: border-box;
-    width: 95%;
-    background: #1a2236;
-    padding-left: 13%;
-    cursor: pointer;
-    padding-top: 1%;
-    font-family: 'Poppins', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: #fff;
-  }
-
+  
 }
 
 @media only screen and (max-width: 376px) {
@@ -1172,6 +1159,7 @@
     position: relative;
     background: #f9f9fa;
     height: 43.5rem;
+    overflow: hidden;
   }
 
   .top_icon {
@@ -1201,14 +1189,14 @@
 
   .contact-form-section > p {
     position: absolute;
-    width: 100%;
+    width: 91%;
     height: 63px;
     left: 1rem;
     top: 12rem;
     font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.27rem;
     letter-spacing: -0.01em;
     color: #1a2236;
