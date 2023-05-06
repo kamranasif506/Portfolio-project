@@ -242,8 +242,6 @@ body {
     padding-top: 210px;
   }
 
-
-
   .overlay-project1 h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -301,7 +299,6 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-
     text-align: center;
     padding-top: 17px;
     padding-bottom: 12px;
@@ -572,7 +569,6 @@ body {
     font-weight: 800;
     font-size: 1.944vw;
     line-height: 1.875rem;
-
     padding: 4%;
     margin-left: 13%;
     color: #fff;
@@ -601,7 +597,6 @@ body {
 
   .grid-ul-items {
     margin: 0;
-
   }
 
   .dotted-grid {
@@ -623,7 +618,6 @@ body {
     font-weight: 400;
     font-size: 7.639vw;
     line-height: 100%;
-
     margin-top: 0;
     padding-top: 6%;
     margin-bottom: 0;
@@ -677,7 +671,6 @@ body {
     font-weight: 500;
     font-size: 1.25vw;
     line-height: 27px;
-
     padding-right: 25px;
     text-align: center;
     color: #fff;
@@ -808,7 +801,6 @@ body {
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 0.96rem;
-
     color: #7d7c84;
   }
 
@@ -838,13 +830,11 @@ body {
 
   .contact-form-section > h2 {
     width: 100%;
-
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
     line-height: 100%;
-
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -853,7 +843,6 @@ body {
 
   .contact-form-section > p {
     width: 100%;
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -867,7 +856,7 @@ body {
     width: 100%;
     background: #1a2236;
     display: grid;
-    grid-template-columns: 30% 35% 35%; 
+    grid-template-columns: 30% 35% 35%;
     grid-gap: 20px;
     overflow: hidden;
   }
@@ -891,7 +880,6 @@ body {
 
   .flex-container > div {
     width: 9%;
-
     text-align: center;
     line-height: 4.688rem;
     font-size: 1.875rem;
@@ -1176,7 +1164,6 @@ body {
     width: 16%;
     font-size: 0.646rem;
     list-style: none;
-
     text-align: center;
     float: left;
     padding: 1%;
@@ -1205,7 +1192,6 @@ body {
     font-weight: 400;
     font-size: 3.125rem;
     line-height: 100%;
-
     color: #1a2236;
   }
 
@@ -1261,7 +1247,6 @@ body {
     font-size: 1.25rem;
     line-height: 1.875rem;
     list-style-type: disc;
-
     padding: 11%;
     margin-left: 1.25rem;
     color: #fff;
@@ -1326,7 +1311,6 @@ body {
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 0.96rem;
-
     color: #7d7c84;
   }
 
@@ -1362,7 +1346,6 @@ body {
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 0.96rem;
-
     color: #7d7c84;
   }
 
@@ -1397,7 +1380,6 @@ body {
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 0.96rem;
-
     color: #7d7c84;
   }
 
