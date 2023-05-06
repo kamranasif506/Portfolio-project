@@ -5,42 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header-content">
-      <img class="right-img" src="images/header.png" alt="" />
+      <div class="header-icon">  
+        <img class="right-img" src="images/header.png" alt="" />
+      </div>
       <nav class="nav-bar">
         <ul>
-          <li><a href="hello">Hello</a></li>
-          <li><a href="portfolio">Portfolio</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#hello">Hello</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <img class="bar_icon" src="images/ic_menu.png" alt="" />
     </header>
     <section id="hello">
-      <h1 class="heading">Kamran Asif</h1>
-      <p class="description">
-        <span
-          >Hello! I am a software developer! I can help you build a product,
-          feature or website. Take a look at my work.</span
-        >
-        <span class="second_part"
-          >If you like what you see and have a project you need coded, don’t
-          hesitate to contact me.</span
-        >
-      </p>
-      <button type="button" class="collaboration_btn">
-        Start collaboration
-      </button>
-    </section>
-    <section class="slider-section" id="banner-img">
-      <img class="slider_img" src="images/main-mobile.png" alt="slider image" />
+      <div class="hello-section">
+        <h1 class="heading">Kamran
+          Asif</h1>
+        <p class="description">
+          <span>
+            Hello! I am a software developer! I can help you build a product,
+            feature or website. Take a look at my work.
+          </span>
+          <span class="second_part">
+            If you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </span>
+        </p>
+        <button type="button" class="collaboration_btn">
+          Start collaboration
+        </button>
+        <div class="dots-header">
+          <img src="images/dots-header.png" alt="" class="dots-img">
+        </div>
+      </div>
+      <div class="slider-section hello-section" id="banner-img">
+        <img class="slider_img" src="images/main-mobile.png" alt="slider image" />
+        <img class="banner-img" src="images/main-banner.png" alt="slider image" />
+      </div>
+      
     </section>
     <section class="portfolio">
-      <section class="main">
+      <section class="main-desktop">
+          <div class="desktop-grid">
+            <div class="desktop-grid-item box_1"><h2>Projects</h2></div>
+            <div class="desktop-grid-item box_2"><img src="images/project-dots.png" alt=""></div>
+            <div class="desktop-grid-item box_3">
+              <img class="box_3_img" src="images/project1-desktop.png" alt="">
+              <div class="overlay-project1">
+                <h3>Project name goes here</h3>
+                <ul>
+                  <li>Computer</li>
+                  <li>Monitor</li>
+                  <li>Keyboard</li>
+                  <li>Mouse</li>
+                </ul>
+              </br>
+                <button class="take_tour">
+                  <span class="btn_text">See this project </span>
+                  <img src="images/ic_arrow_right.png" alt="" class="arrow" />
+                </button>
+              </div>
+            </div>
+            
+          </div>
+          <div class="desktop-grid2">
+            <div class="desktop-grid2-item box_4"><img class="box_4_img" src="images/Rectangle 46.png" alt=""></div>
+            <div class="desktop-grid2-item box_5"><img class="box_5_img" src="images/project-dots.png" alt=""></div>
+            <div class="desktop-grid2-item box_6">
+              <div class="d_img">
+                <img class="box_6_img" src="images/D.png" alt="">
+              </div>
+              <div class="egg_img">
+                <img class="box_egg_img" src="images/egg.png" alt="">
+              </div>
+              <div class="square_img">
+                <img class="box_square_img" src="images/square.png" alt="">
+              </div>
+            </div>
+            <div class="desktop-grid2-item box_7">
+              <img class="box_7_img" src="images/Rectangle 25.png" alt="">
+              <div class="overlay-project2">
+                <h3>Project name goes...</h3>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>Ruby on Rails</li>
+                  <li>+1</li>
+                </ul>
+              
+                <button class="take_tour row-2">
+                  <span class="btn_text">See this project </span>
+                  <img src="images/ic_arrow_right.png" alt="" class="arrow" />
+                </button>
+                <img src="images/Rectangle 26.png" alt="" class="hover_img">
+              </div>
+            </div>
+          </div>
+          <div class="desktop-grid3">
+            <div class="desktop-grid-item3 box_8"><img src="images/Rectangle 27.png" alt="" class="row3_img"></div>
+            <div class="desktop-grid-item3 box_9"><img src="images/Shape.png" alt=""></div>
+            <div class="desktop-grid-item3 box_10">
+              <img class="box_10_img" src="images/Group 83.png" alt="">
+            </div>
+            
+          </div>
+          <div class="desktop-grid4">
+            <div class="desktop-grid-item4 box_11">
+              <img src="images/Group 85.png" alt="" class="row4_img">
+            </div>
+            <div class="desktop-grid-item4 box_12">
+              <img src="images/Shape_egg.png" alt="" class="row4_egg_img">
+            </div>
+           
+            <div class="desktop-grid-item4 box_13">
+              <img class="box_14_img" src="images/image-geometry_4.png" alt="">
+            </div>
+            <div class="desktop-grid-item4 box_14">
+              <img class="box_15_img" src="images/Rectangle 47.png" alt="">
+            </div>
+            
+          </div>
+      </section>
+      <section class="main main-mobile">
         <h2>Projects</h2>
 
         <article class="sale-item">
@@ -141,103 +232,139 @@
       </section>
     </section>
     <section id="about">
-      <h2>About</h2>
-      <p class="about_para">
-        I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hesitate to contact me.
-      </p>
-      <button class="get_cv">
-        <span class="btn_text">Get my CV</span
-        ><img src="images/ic_download.png" alt="" class="arrow" />
-      </button>
-      <section id="about-section">
-        <ul>
-          <li class="list_style">
-            <section id="languages">
-              <div class="language_lists">
-                <ul class="langs">
-                  <h2>Languages</h2>
-                  <li class="lang-items">Javascript(ES5/ES6)</li>
-                  <li class="lang-items">Ruby</li>
-                  <li class="lang-items">HTML</li>
-                  <li class="lang-items">CSS</li>
-                </ul>
-              </div>
-              <img src="images/hash.png" alt="" class="hash" />
-            </section>
-          </li>
-        </ul>
-        <ul>
-          <li class="list_style">
-            <section id="frameworks">
-              <div class="language_lists">
-                <ul class="langs">
-                  <h2>Frameworks</h2>
-                  <li class="lang-items">React Js</li>
-                  <li class="lang-items">Ruby On Rails</li>
-                  <li class="lang-items">RSpec</li>
-                  <li class="lang-items">Capibara</li>
-                </ul>
-              </div>
-              <img src="images/ic_framework.png" alt="" class="hash" />
-            </section>
-          </li>
-        </ul>
-        <ul>
-          <li class="list_style">
-            <section id="skills">
-              <div class="language_lists">
-                <ul class="langs">
-                  <h2>Skills</h2>
-                  <li class="lang-items">Database Managment</li>
-                  <li class="lang-items">CLI</li>
-                  <li class="lang-items">API Design</li>
-                  <li class="lang-items">Version Control</li>
-                  <li class="lang-items">Web development</li>
-                </ul>
-              </div>
-              <img src="images/ic_skills.png" alt="" class="hash" />
-            </section>
-          </li>
-        </ul>
-      </section>
+      <div class="empty_div div3"></div>  
+      <div class="about_info">
+        <h2>About</h2>
+        <p class="about_para">
+          I can help you build a product , feature or website Look through some of
+          my work and experience! If you like what you see and have a project you
+          need coded, don’t hesitate to contact me.
+        </p>
+        <button class="get_cv">
+          <span class="btn_text text_cv">Get my CV</span
+          ><img src="images/ic_download.png" alt="" class="arrow" />
+          
+        </button>
+      </div>
+      <div class="about_skills">
+        <section id="about-section">
+          <ul class="grid-ul-items">
+            <li class="list_style">
+              <section id="languages">
+                <div class="language_lists">
+                  <ul class="langs inside_ul">
+                    <h2>Languages</h2>
+                    <li class="lang-items">Javascript(ES5/ES6)</li>
+                    <li class="lang-items">Ruby</li>
+                    <li class="lang-items">HTML</li>
+                    <li class="lang-items">CSS</li>
+                  </ul>
+                </div>
+                <img src="images/hash.png" alt="" class="hash" />
+              </section>
+            </li>
+          </ul>
+          <ul class="grid-ul-items">
+            <li class="list_style">
+              <section id="frameworks">
+                <div class="language_lists">
+                  <ul class="langs">
+                    <h2>Frameworks</h2>
+                    <li class="lang-items">React Js</li>
+                    <li class="lang-items">Ruby On Rails</li>
+                    <li class="lang-items">RSpec</li>
+                    <li class="lang-items">Capibara</li>
+                  </ul>
+                </div>
+                <img src="images/ic_framework.png" alt="" class="hash" />
+              </section>
+            </li>
+          </ul>
+          <ul class="grid-ul-items">
+            <li class="list_style">
+              <section id="skills">
+                <div class="language_lists">
+                  <ul class="langs">
+                    <h2>Skills</h2>
+                    <li class="lang-items">Database Managment</li>
+                    <li class="lang-items">CLI</li>
+                    <li class="lang-items">API Design</li>
+                    <li class="lang-items">Version Control</li>
+                    <li class="lang-items">Web development</li>
+                  </ul>
+                </div>
+                <img src="images/ic_skills.png" alt="" class="hash" />
+              </section>
+            </li>
+          </ul>
+          <ul class="grid-ul-items dotted-grid">
+            <li class="list_style dotted_style">
+              <section id="hash_img">
+                <img src="images/image_dots_with_teal.png" alt="" class="hash_dots" />
+              </section>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="empty_div div4"></div>  
     </section>
-
+    <br>
     <section id="contact">
-      <img src="images/header.png" alt="" class="top_icon" />
-
-      <h2>Get Started</h2>
-      <p>
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </p>
-      <div class="form-section">
-        <form class="form-fields" action="https://formspree.io/f/xdovbgea" method="POST">
-          <div class="form-element">
-            <label class="label-name">Your Name</label>
-            <input type="text" name="name" class="input-name" maxlength="30" placeholder="Kamran..." value="" required />
-          </div>
-          <div class="form-element">
-            <label class="label-email">Your Email</label>
-            <input type="email" name="email" class="input-email" placeholder="kamranasif506@gm.." value="" required />
-          </div>
-          <div class="form-element">
-            <label class="label-message">Your Message</label>
-            <textarea rows="3" name="message" class="input-message" maxlength="500" placeholder="Enter your message here..." required></textarea>
-          </div>
-          <div class="form-element">
-            <button type="submit" class="send_feeed">Send collaboration</button>
-          </div>  
-        </form>
+      <div class="contact-items">
+        <img src="images/header.png" alt="" class="top_icon" />
+        <img src="images/image-geometry_6.png" alt="" class="top_icon_desktop" />
+      </div> 
+      <div class="contact-items"></div>
+      <div class="contact-items contact-form-section">
+        <h2>Get Started</h2>
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like to
+          chat please get in touch.
+        </p>
+        <div class="form-section">
+          <form class="form-fields" action="https://formspree.io/f/xdovbgea" method="POST">
+            <div class="form-element first_row">
+              <div class="form-group">
+               <label class="label-name">Your Name</label>
+                <input type="text" name="name" class="input-name" maxlength="30" placeholder="Kamran..." value="" required />
+              </div>
+           
+              <div class="form-group">
+                <label class="label-email">Your Email</label>
+                <input type="email" name="email" class="input-email" placeholder="kamranasif506@gm.." value="" required />
+              </div>
+            </div>
+            <div class="form-element">
+              
+              <div class="form-group">
+                <label class="label-message">Your Message</label>
+                <textarea rows="3" name="message" class="input-message" maxlength="500" placeholder="Enter your message here..." required></textarea>
+              </div>
+            </div>
+            <div class="form-element">
+              <div class="form-group">
+                <button type="submit" class="send_feeed">Send collaboration</button>
+              </div>
+            </div>  
+          </form>
+         
+        </div>
+      </div>
+      <div class="contact-items"></div>
+      <div class="contact-items bottom_right_img">
+        <img src="images/image-geometry_7.png" alt="" class="bottom-right-contact">
       </div>
     </section>
     <footer id="footer">
-      <h2>
-        Get My Resume.
+      <h2  class="col1 h2 desktop_btn">
+        Get My CV
+        <img src="images/ic-link_teal.png" alt="" class="download" />
+      </h2>
+      <h2  class="col1 h2 mobile_btn">
+        Get My Resume
         <img src="images/ic_link_teal.png" alt="" class="download" />
       </h2>
-      <div class="flex-container">
+      <div class="flex-container col2">
         <div>
           <a href="https://stackoverflow.com/"
             ><img src="images/ic_stackoverflow.png" alt="" class="flex-item"

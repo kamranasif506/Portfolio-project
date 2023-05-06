@@ -137,11 +137,6 @@ You can deploy this project using github pages.
 - Twitter: [@twitterhandle](https://twitter.com/kamiasif55)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamran-asif-76160926b/)
 
-👤 Nohain Islam
-
-- GitHub: [@githubhandle](https://github.com/Zafron047)
-- Twitter: [@twitterhandle](https://https//twitter.com/NohainZ)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,15 +145,20 @@ You can deploy this project using github pages.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Add Design for the Desktop screens
-- [ ] Add Design for the Tablet screens.
-- [ ] Add more styles to index.html file.
+- [ ] Add Design animations
+- [ ] Enhance the styling for all screens.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+👤 Nohain Islam
+
+- GitHub: [@githubhandle](https://github.com/Zafron047)
+- Twitter: [@twitterhandle](https://https//twitter.com/NohainZ)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
 Contributions, issues, and feature requests are welcome!
 
