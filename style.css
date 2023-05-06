@@ -543,7 +543,6 @@ body {
     width: 70%;
   }
 
-
   .about_info {
     width: 40%;
     float: right;
@@ -891,8 +890,6 @@ body {
   .col1 {
     grid-column: 1 / 2;
   }
-
-
 
   .col2 {
     grid-column: 2 / 2;
