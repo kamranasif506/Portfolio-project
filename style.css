@@ -9,6 +9,20 @@ body {
   margin: 0;
 }
 
+.flex-item:hover {
+  transform: scale(1.2);
+}
+
+@keyframes flip {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media only screen and (min-width: 377px) {
   .bar_icon {
     display: none;
@@ -102,6 +116,7 @@ body {
     margin-right: auto;
     text-align: justify;
     margin-bottom: 2rem;
+    animation: flip 2s linear 1s;
   }
 
   .description {
@@ -1002,6 +1017,7 @@ body {
     font-size: 4.29rem;
     line-height: 4rem;
     color: #1a2236;
+    animation: flip 2s linear 1s;
     margin-top: 3.5rem;
   }
 
