@@ -6,7 +6,7 @@
   <img src="Kamran.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Setup and mobile version skeleton</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -18,6 +18,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -34,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Setup and mobile version skeleton <a name="about-project"></a>
+# 📖 Setup Portfolio website <a name="about-project"></a>
 
 > Portfolio website in which we have created first contact section of mobile website using the template 5. I created it using HTML, CSS
 
@@ -71,6 +72,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://kamranasif506.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
