@@ -19,6 +19,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Project walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -79,6 +80,14 @@
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://kamranasif506.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Project Walkthrough -->
+
+## 🚀 Project walkthrough <a name="walkthrough"></a>
+
+- [Explanation](https://www.loom.com/share/65fd31fa88ba49d883a3bd28ec9e497c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
