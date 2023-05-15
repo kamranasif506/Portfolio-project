@@ -87,7 +87,9 @@ body {
   .nav-bar a:hover::after {
     width: 73%;
   }
-
+  #myNav {
+    display: none;
+  }
   .hello-section {
     position: relative;
     width: 50%;
@@ -950,7 +952,62 @@ body {
     padding: 0;
     margin: 0;
   }
+  #myNav {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 0;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+  }
+  .nav-grid1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-gap: 10px;
+  }
+  .nav-grid2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    
+  }
+  .nav-grid2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .nav-grid2 ul li {
+    padding-top: 2%; 
+  }
+  .navlinks {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .nav-grid2 ul li a {
+    text-decoration: none; 
+    color: inherit; 
+  }
 
+  .close_icon {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu_img {
+    width: 100%;
+  }
+  .bottom_nav_img {
+    width: 100%;
+  }
   .dotted-grid {
     display: none;
   }
