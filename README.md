@@ -61,15 +61,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Added index.html file.
-- Created toolbar (or header).
-- Created headline section (right after the header).
-- Added style.css file
-- Added Portfolio Section
-- Added About Section
-- Added Language, Skills, frameworks Section
-- Added Contact Section
-- Added footer Sectiom
+- Added script.js file.
+- Added Mobile nav menu functionality.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
