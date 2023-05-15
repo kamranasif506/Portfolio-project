@@ -7,10 +7,9 @@ const closeNav = document.getElementById('close_icon');
 closeNav.addEventListener('click', () => {
   document.getElementById('myNav').style.width = '0%';
 });
-let menuItems = document.getElementsByClassName('navlinks-items');
-Array.from(menuItems).forEach(li => {
-  li.addEventListener('click', handleClick);
+const menuItems = document.getElementsByClassName('navlinks-items');
+Array.from(menuItems).forEach((li) => {
+  li.addEventListener('click', () => {
+    document.getElementById('myNav').style.width = '0%';
+  });
 });
-function handleClick(event) {
-  document.getElementById('myNav').style.width = '0%';
-}
