@@ -989,7 +989,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 270%;
-
+    cursor: pointer;
     text-align: center;
 
     color: #000000;
@@ -1011,6 +1011,7 @@ body {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
   }
   .menu_img {
     width: 100%;
@@ -1066,6 +1067,7 @@ body {
     height: 0.875rem;
     right: 1.3rem;
     top: 1.35rem;
+    cursor: pointer;
   }
 
   .nav-bar {
