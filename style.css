@@ -90,7 +90,7 @@ body {
   #myNav {
     display: none;
   }
-  
+
   .hello-section {
     position: relative;
     width: 50%;
@@ -955,7 +955,7 @@ body {
   }
   #myNav {
     display: block;
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 0;
     /* position: fixed; */
@@ -983,7 +983,16 @@ body {
     padding: 0;
   }
   .nav-grid2 ul li {
-    padding-top: 2%; 
+    /* padding-top: 43%;  */
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 270%;
+
+    text-align: center;
+
+    color: #000000;
   }
   .navlinks {
     display: flex;
