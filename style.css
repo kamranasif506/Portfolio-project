@@ -22,6 +22,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -31,8 +32,8 @@ body {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -58,20 +59,24 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
 .modal-header {
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: auto;
 }
+
 .modal_ul {
   margin: 0 0 1rem;
   margin-top: 3%;
   list-style: none;
   display: flex;
+
   /* padding-left: 7%; */
 }
+
 .modal_ul li {
-  background: #FFFFFF;
+  background: #fff;
   color: #1a2236;
   font-size: 1.389vw;
   list-style: none;
@@ -79,43 +84,52 @@ body {
   float: left;
   padding: 1%;
   margin-left: 1.25rem;
-  border: 1px solid #1A2236;
+  border: 1px solid #1a2236;
 }
+
 .modal_ul li:first-child {
   margin-left: 0;
 }
+
 .modal_title {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 80%;
-  color: #1A2236;
+  color: #1a2236;
 }
+
 .modal-banner-img {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
   position: relative;
 }
+
 .modal-slider-img {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: auto;
   gap: 0;
 }
-.modal_slider_img,.modal_banner {
+
+.modal_slider_img,
+.modal_banner {
   width: 100%;
 }
+
 .left_handle {
   position: absolute;
   top: 50%;
 }
+
 .right_handle {
   position: absolute;
   right: 0;
   top: 50%;
 }
+
 .modal_description {
   display: flex;
   width: 65%;
@@ -123,19 +137,21 @@ body {
   margin-right: auto;
   margin-top: 5%;
 }
+
 .modal_description p {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-
-  color: #1A2236;
+  color: #1a2236;
 }
+
 .btn_grid {
   display: flex;
   width: 100%;
 }
+
 .btn_wrapper {
   display: flex;
   width: 65%;
@@ -145,16 +161,17 @@ body {
 
 .see_live {
   display: flex;
+
   /* align-items: center; */
   justify-content: flex-start;
   box-sizing: border-box;
   width: 40%;
-  background: #FFFFFF;
-  border: 1px solid #1A2236;
+  background: #fff;
+  border: 1px solid #1a2236;
   cursor: pointer;
   padding-top: 1%;
   text-decoration: none;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .see_live:hover {
@@ -171,24 +188,28 @@ body {
 
 .see_sources {
   display: flex;
+
   /* align-items: center; */
   justify-content: flex-start;
   box-sizing: border-box;
   width: 40%;
-  background: #FFFFFF;
-  border: 1px solid #1A2236;
+  background: #fff;
+  border: 1px solid #1a2236;
   cursor: pointer;
   padding-top: 1%;
   text-decoration: none;
-  color: #1A2236;
+  color: #1a2236;
+
   /* color: #1A2236; */
   margin-left: 6%;
 }
-.live_text, .sources_text {
+
+.live_text,
+.sources_text {
   font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.250vw;
+  font-size: 1.25vw;
   line-height: 27px;
   padding-top: 17px;
   padding-bottom: 12px;
@@ -205,22 +226,27 @@ body {
 .see_sources:active {
   border: 2px solid #1a2236;
   background: #1a2236;
-  color: #fff ;
+  color: #fff;
 }
-.see_sources:hover .arrow_source {
-  content: url(images/ic_github_white.png);
-}
-.see_live:hover .arrow_live {
-  content: url(images/ic_link_teal.png);
-}
-.arrow_live, .arrow_source {
+
+.arrow_live,
+.arrow_source {
   margin-left: auto;
   display: flex;
   padding-right: 5%;
-  height: fit-content;
+  height: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.see_sources:hover .arrow_source {
+  content: url(images/ic_github_white.png);
+}
+
+.see_live:hover .arrow_live {
+  content: url(images/ic_link_teal.png);
+}
+
 .modal_footer {
   display: flex;
   width: 65%;
@@ -228,14 +254,15 @@ body {
   margin-right: auto;
   margin-top: 6%;
 }
+
 .footer-right {
   margin-left: auto;
   cursor: pointer;
 }
+
 .footer-left {
   cursor: pointer;
 }
-
 
 @media only screen and (min-width: 768px) {
   .bar_icon {
@@ -493,7 +520,7 @@ body {
     display: flex;
     padding-left: 7%;
   }
- 
+
   .langs li {
     list-style: disc;
     font-size: 1.25vw;
@@ -1168,69 +1195,77 @@ body {
     padding: 0;
     margin: 0;
   }
-  .modal_description, .btn_wrapper {
+
+  .modal_description,
+  .btn_wrapper {
     width: 100% !important;
   }
+
   .modal_title {
     font-size: 1.25rem !important;
   }
-  .modal_ul li {
-    font-size: 0.646rem !important;
-    margin-left: 0.8rem;
-  }
-  .left_handle, .right_handle {
+
+  .left_handle,
+  .right_handle {
     width: 5% !important;
   }
-  .close_icon {
-    margin-top: 0px !important;
-    margin-right: 0px !important;
-  }
+
   .btn_grid {
     display: block !important;
     width: 100% !important;
   }
+
   .see_live {
     width: 100% !important;
   }
+
   .see_sources {
     width: 100% !important;
     margin-left: 0 !important;
     margin-top: 5%;
   }
-  .live_text, .sources_text {
+
+  .live_text,
+  .sources_text {
     font-size: 18px !important;
   }
+
   .modal_footer {
     display: none !important;
   }
+
   .see_live:hover {
     border: 1px solid #1a2236 !important;
     background: #1a2236 !important;
     color: #fff !important;
   }
-  
+
   .see_live:active {
     border: 2px solid #1a2236 !important;
     background: #1a2236 !important;
     color: #fff !important;
   }
+
   .see_sources:hover {
     border: 1px solid #1a2236 !important;
     background: #1a2236 !important;
     color: #ffff !important;
   }
-  
+
   .see_sources:active {
     border: 2px solid #1a2236 !important;
     background: #1a2236 !important;
     color: #fff !important;
   }
+
   .see_sources:hover .arrow_source {
     content: url(images/ic_github_white.png);
   }
+
   .see_live:hover .arrow_live {
     content: url(images/ic_link_teal.png);
   }
+
   #myNav {
     display: block;
     position: fixed;
@@ -1542,6 +1577,11 @@ body {
     float: left;
     padding: 1%;
     margin-left: 4%;
+  }
+
+  .modal_ul li {
+    font-size: 0.646rem !important;
+    margin-left: 0.8rem;
   }
 
   .nav-grid2 ul {

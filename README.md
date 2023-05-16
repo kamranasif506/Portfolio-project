@@ -61,8 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Added script.js file.
-- Added Mobile nav menu functionality.
+- Added popup project Detail functionality.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,6 +131,7 @@ You can run the tests using the following commands:
 ```
     npx hint .
     npx stylelint "**/*.{css,scss}"
+    run: npx eslint .
 ```
 ### Deployment
 
