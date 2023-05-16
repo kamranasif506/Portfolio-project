@@ -88,8 +88,8 @@
                 </ul>
               </br>
                 <button class="take_tour" id="take_tour" data-id="project1">
-                  <span class="btn_text">See this project </span>
-                  <img src="images/ic_arrow_right.png" alt="" class="arrow" />
+                  <span class="btn_text" data-id="project1">See this project </span>
+                  <img src="images/ic_arrow_right.png" data-id="project1" alt="" class="arrow" />
                 </button>
               </div>
             </div>
@@ -120,8 +120,8 @@
                 </ul>
               
                 <button class="take_tour row-2" data-id="project2">
-                  <span class="btn_text">See this project </span>
-                  <img src="images/ic_arrow_right.png" alt="" class="arrow" />
+                  <span class="btn_text" data-id="project1">See this project </span>
+                  <img src="images/ic_arrow_right.png" data-id="project1" alt="" class="arrow" />
                 </button>
                 <img src="images/Rectangle 26.png" alt="" class="hover_img">
               </div>
@@ -176,10 +176,9 @@
           <h3 class="project_name">Your Project Name</h3>
 
           <ul>
-            <li>Computer</li>
-            <li>Monitor</li>
-            <li>Keyboard</li>
-            <li>Mouse</li>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
           </ul>
           <button class="take_tour" data-id="project2">
             <span class="btn_text" data-id="project2">See this project </span>
@@ -424,17 +423,15 @@
       <div class="modal-content">
         <div class="modal-header">
             <div class="title_div">
-                <h2 class="modal_title">Project Goes here</h2>
-                <ul class="modal_ul">
-                  <li>HTML/CSS</li>
-                  <li>Ruby on Rails</li>
-                  <li>Javascript</li>
+                <h2 class="modal_title" id="modal_title">Project Goes here</h2>
+                <ul class="modal_ul" id="modal_ul">
+                  
                 </ul>
             </div>
             <div id="close_model" class="close_icon"><span class="close">&times;</span></div>
         </div>
         <div class="modal-banner-img">
-          <img src="" alt="" class="modal_banner">
+          <img src="" alt="" class="modal_banner" id="modal_banner">
           <img src="images/Vector 4.png" alt="" class="left_handle">
           <img src="images/Vector 5.png" alt="" class="right_handle">
         </div>
@@ -446,19 +443,19 @@
           <img src="images/Rectangle 40.png" alt="" class="modal_slider_img">
         </div>
         <div class="modal_description">
-          <p class="project_desc"></p>
+          <p class="project_desc" id="project_desc"></p>
          
         </div>
         <div class="btn_wrapper">
           <div class="btn_grid">
-            <button class="see_live">
+            <a href="" class="see_live" id="see_live">
               <span class="live_text">See Live</span>
               <img src="images/ic_link.png" alt="" class="arrow_live" />
-            </button>
-            <button class="see_sources">
+            </a>
+            <a href="" class="see_sources" id="see_sources">
               <span class="sources_text">See Resource</span>
               <img src="images/ic_github_black.png" alt="" class="arrow_source" />
-            </button>
+            </a>
           </div>
         </div>
         <div class="modal_footer">
