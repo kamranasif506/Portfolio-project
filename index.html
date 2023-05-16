@@ -7,8 +7,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link href="style.css" rel="stylesheet" />
+    
   </head>
   <body>
+    <div id="myNav" class="overlay-nav">
+      <div class="nav-grid1">
+        <img src="images/image_geometry_menu_1.png" alt="" class="nav-mobile-img menu_img">
+        <img id="close_icon" src="images/Union-x.png" alt="" class="nav-mobile-img close_icon">
+      </div>
+      <div class="nav-grid2">
+        <div class="navlinks">
+          <ul>
+            <li class="navlinks-items"><a href="#hello">Hello</a></li>
+            <li class="navlinks-items"><a href="#portfolio">Portfolio</a></li>
+            <li class="navlinks-items"><a href="#about">About</a></li>
+            <li class="navlinks-items"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-grid2">
+        <img src="images/image_geometry_menu_2.png" alt="" class="bottom_nav_img">
+      </div>
+     
+    </div>
     <header class="header-content">
       <div class="header-icon">  
         <img class="right-img" src="images/header.png" alt="" />
@@ -21,7 +42,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <img class="bar_icon" src="images/ic_menu.png" alt="" />
+      <img class="bar_icon" id="bar_icon"  src="images/ic_menu.png" alt="" />
     </header>
     <section id="hello">
       <div class="hello-section">
@@ -397,5 +418,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>  
   </body>
 </html>

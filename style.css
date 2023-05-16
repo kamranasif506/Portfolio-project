@@ -23,7 +23,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 377px) {
+@media only screen and (min-width: 768px) {
   .bar_icon {
     display: none;
   }
@@ -86,6 +86,10 @@ body {
 
   .nav-bar a:hover::after {
     width: 73%;
+  }
+
+  #myNav {
+    display: none;
   }
 
   .hello-section {
@@ -944,11 +948,66 @@ body {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 767px) {
   body {
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+
+  #myNav {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 0;
+
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .nav-grid1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-gap: 10px;
+  }
+
+  .nav-grid2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+  }
+
+  .navlinks {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-grid2 ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .close_icon {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  .menu_img {
+    width: 100%;
+  }
+
+  .bottom_nav_img {
+    width: 100%;
   }
 
   .dotted-grid {
@@ -999,6 +1058,7 @@ body {
     height: 0.875rem;
     right: 1.3rem;
     top: 1.35rem;
+    cursor: pointer;
   }
 
   .nav-bar {
@@ -1206,6 +1266,23 @@ body {
     float: left;
     padding: 1%;
     margin-left: 4%;
+  }
+
+  .nav-grid2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nav-grid2 ul li {
+    /* padding-top: 43%;  */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 270%;
+    cursor: pointer;
+    text-align: center;
+    color: #000;
   }
 
   article > p {
