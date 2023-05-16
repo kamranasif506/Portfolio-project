@@ -78,4 +78,7 @@ Array.from(take_tour).forEach(take_tour => {
 // function handleClick(event){
   
 // }
-
+const closeModel = document.getElementById('close_model');
+  closeModel.addEventListener('click', function(){
+    modal.style.display = "none";
+  });
