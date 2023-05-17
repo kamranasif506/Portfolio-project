@@ -326,10 +326,11 @@ form.addEventListener('submit', (event) => {
   let error = '';
   const contact = document.getElementById('contact');
 
+  const errorBox = document.getElementById('error_div');
   if (nameInput.value.trim() === '') {
     error = 'Please enter your name';
     errorMessage.innerHTML = error;
-    errorMessage.display = 'block';
+    errorBox.style.display = 'block';
     contact.style.height = '44.5rem';
     sendFeed.style.top = '41rem';
     nameInput.focus();
@@ -339,7 +340,7 @@ form.addEventListener('submit', (event) => {
   if (emailInput.value.trim() === '') {
     error = 'Please enter your email';
     errorMessage.innerHTML = error;
-    errorMessage.display = 'block';
+    errorBox.style.display = 'block';
     contact.style.height = '44.5rem';
     sendFeed.style.top = '41rem';
     emailInput.focus();
@@ -348,7 +349,7 @@ form.addEventListener('submit', (event) => {
 
   if (!isValidEmail(emailInput.value)) {
     errorMessage.innerHTML = 'Your email should be in Lowercase';
-    errorMessage.display = 'block';
+    errorBox.style.display = 'block';
     contact.style.height = '44.5rem';
     sendFeed.style.top = '41rem';
     emailInput.focus();
@@ -358,7 +359,7 @@ form.addEventListener('submit', (event) => {
   if (messageInput.value.trim() === '') {
     error = 'Please enter your message';
     errorMessage.innerHTML = error;
-    errorMessage.display = 'block';
+    errorBox.style.display = 'block';
     contact.style.height = '44.5rem';
     sendFeed.style.top = '41rem';
     messageInput.focus();
