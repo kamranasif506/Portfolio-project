@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Added popup project Detail functionality.
+- Added form validation in js.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

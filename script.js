@@ -311,65 +311,62 @@ const form = document.getElementById('formFields');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('message');
-const send_feed = document.getElementById('send_feeed');
+const sendFeed = document.getElementById('send_feeed');
 const errorMessage = document.getElementById('error');
 
-form.addEventListener('submit', function(event) {
-  let error ='';
-  const contact = document.getElementById('contact');
+function isValidEmail(email) {
+  const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  if (!emailRegex.test(email)) {
+    return false;
+  }
+  return true;
+}
+form.addEventListener('submit', (event) => {
   event.preventDefault();
-  if(nameInput.value.trim() == ''){
+  let error = '';
+  const contact = document.getElementById('contact');
+
+  if (nameInput.value.trim() === '') {
     error = 'Please enter your name';
     errorMessage.innerHTML = error;
-    errorMessage.display='block';
+    errorMessage.display = 'block';
     contact.style.height = '44.5rem';
-    send_feed.style.top = '41rem';
+    sendFeed.style.top = '41rem';
     nameInput.focus();
     return;
   }
 
-  if(emailInput.value.trim() == ''){
+  if (emailInput.value.trim() === '') {
     error = 'Please enter your email';
     errorMessage.innerHTML = error;
-    errorMessage.display='block';
+    errorMessage.display = 'block';
     contact.style.height = '44.5rem';
-    send_feed.style.top = '41rem';
+    sendFeed.style.top = '41rem';
     emailInput.focus();
     return;
   }
 
-  if(!isValidEmail(emailInput.value)){
+  if (!isValidEmail(emailInput.value)) {
     errorMessage.innerHTML = 'Your email should be in Lowercase';
-    errorMessage.display='block';
+    errorMessage.display = 'block';
     contact.style.height = '44.5rem';
-    send_feed.style.top = '41rem';
+    sendFeed.style.top = '41rem';
     emailInput.focus();
     return;
   }
-  
-  if(messageInput.value.trim() == ''){
+
+  if (messageInput.value.trim() === '') {
     error = 'Please enter your message';
     errorMessage.innerHTML = error;
-    errorMessage.display='block';
+    errorMessage.display = 'block';
     contact.style.height = '44.5rem';
-    send_feed.style.top = '41rem';
+    sendFeed.style.top = '41rem';
     messageInput.focus();
     return;
   }
- 
-  errorMessage.innerHTML='';
+
+  errorMessage.innerHTML = '';
   contact.style.height = '43.5rem';
-  send_feed.style.top = '40rem';
+  sendFeed.style.top = '40rem';
   form.submit();
-
-})
-
-function isValidEmail(email) {
-  var emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
-  if (!emailRegex.test( email )) {
-    return false;
-  } else {
-    return true;
-  }
-  
-}
+});

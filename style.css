@@ -281,6 +281,7 @@ body {
   .header-icon {
     display: none;
   }
+
   .error-message {
     display: flex;
     margin-left: auto !important;
@@ -1065,7 +1066,7 @@ body {
     line-height: 0.96rem;
     color: #7d7c84;
   }
- 
+
 
   .send_feeed {
     box-sizing: border-box;
@@ -1855,6 +1856,7 @@ body {
   .input-name:focus {
     border: 1px solid #1a2236 !important;
   }
+
   .error-message {
     position: absolute;
     left: 1rem;
@@ -1862,8 +1864,8 @@ body {
     color: red;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-    
   }
+
   .send_feeed {
     position: absolute;
     cursor: pointer;
