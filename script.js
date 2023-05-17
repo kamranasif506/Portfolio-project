@@ -348,15 +348,7 @@ form.addEventListener('submit', function(event) {
   }
   
   
-  if(messageInput.value.trim() == ''){
-    error = 'Please enter your message';
-    errorMessage.innerHTML = error;
-    errorMessage.display='block';
-    contact.style.height = '44.5rem';
-    send_feed.style.top = '41rem';
-    messageInput.focus();
-    return;
-  }
+ 
   errorMessage.innerHTML='';
   contact.style.height = '43.5rem';
   send_feed.style.top = '40rem';
