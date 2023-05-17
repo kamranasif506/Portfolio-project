@@ -165,28 +165,34 @@
           chat please get in touch.
         </p>
         <div class="form-section">
-          <form class="form-fields" action="https://formspree.io/f/xdovbgea" method="POST">
+          <form id="formFields" class="form-fields" action="https://formspree.io/f/xdovbgea" method="POST">
             <div class="form-element first_row">
               <div class="form-group">
                <label class="label-name">Your Name</label>
-                <input type="text" name="name" class="input-name" maxlength="30" placeholder="Kamran..." value="" required />
+                <input type="text" name="name" id="name" class="input-name" maxlength="30" placeholder="Kamran..." value="" />
               </div>
            
               <div class="form-group">
                 <label class="label-email">Your Email</label>
-                <input type="email" name="email" class="input-email" placeholder="kamranasif506@gm.." value="" required />
+                <input type="email" name="email" id="email" class="input-email" placeholder="kamranasif506@gm.." value=""  />
               </div>
             </div>
             <div class="form-element">
               
               <div class="form-group">
                 <label class="label-message">Your Message</label>
-                <textarea rows="3" name="message" class="input-message" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                <textarea rows="3" name="message" id="message" class="input-message" maxlength="500" placeholder="Enter your message here..." ></textarea>
               </div>
             </div>
             <div class="form-element">
               <div class="form-group">
-                <button type="submit" class="send_feeed">Send collaboration</button>
+                <div id="error" class="error-message"></div>
+              </div>
+            </div>
+            <div class="form-element">
+              <div class="form-group">
+                <button type="submit" id="send_feeed" class="send_feeed">Send collaboration</button>
+               
               </div>
             </div>  
           </form>
