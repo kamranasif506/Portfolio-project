@@ -244,26 +244,65 @@ Array.from(takeTour).forEach((takeTour) => {
     const index = event.target.getAttribute('data-id');
     const keys = Object.keys(projectLists);
     const project = projectLists[keys.find((key) => key === index)];
-    document.getElementById('modal_title').innerHTML = project.name;
-    document.getElementById('modal_banner').src = project.image;
-    const images = document.querySelectorAll('.modal_slider_img');
-    images.forEach((image) => {
-      image.src = project.image;
-    });
+
     const tech = project.technologies;
     let techHtml = '';
 
     techHtml = tech.map((item) => `<li>${item}</li>`).join('');
 
-    document.getElementById('modal_ul').innerHTML = techHtml;
-    document.getElementById('project_desc').innerHTML = project.description;
-    document.getElementById('see_sources').href = project.source_link;
-    document.getElementById('see_live').href = project.live_link;
-    modal.style.display = 'block';
-  });
-});
+    const modalBody = ` <div class="modal-content">
+      <div class="modal-header">
+          <div class="title_div">
+              <h2 class="modal_title" id="modal_title">${project.name}</h2>
+              <ul class="modal_ul" id="modal_ul">
+                ${techHtml}
+              </ul>
+          </div>
+          <div id="close_model" class="close_icon"><span class="close">&times;</span></div>
+      </div>
+      <div class="modal-banner-img">
+        <img src="${project.image}" alt="" class="modal_banner" id="modal_banner">
+        <img src="images/Vector 4.png" alt="" class="left_handle">
+        <img src="images/Vector 5.png" alt="" class="right_handle">
+      </div>
+      <div class="modal-slider-img">
+        <img src="${project.image}" alt="" class="modal_slider_img">
+        <img src="${project.image}" alt="" class="modal_slider_img">
+        <img src="${project.image}" alt="" class="modal_slider_img">
+        <img src="${project.image}" alt="" class="modal_slider_img">
+        <img src="${project.image}" alt="" class="modal_slider_img">
+      </div>
+      <div class="modal_description">
+        <p class="project_desc" id="project_desc">${project.description}</p>
+       
+      </div>
+      <div class="btn_wrapper">
+        <div class="btn_grid">
+          <a href="${project.live_link}" class="see_live" id="see_live">
+            <span class="live_text">See Live</span>
+            <img src="images/ic_link.png" alt="" class="arrow_live" />
+          </a>
+          <a href="${project.source_link}" class="see_sources" id="see_sources">
+            <span class="sources_text">See Resource</span>
+            <img src="images/ic_github_black.png" alt="" class="arrow_source" />
+          </a>
+        </div>
+      </div>
+      <div class="modal_footer">
+        <img src="images/Group 107.png" alt="" class="footer-left">
+        <img src="images/Group 108.png" alt="" class="footer-right">
+       
+      </div>
+        
+    </div> `;
+    modal.innerHTML = modalBody;
 
-const closeModel = document.getElementById('close_model');
-closeModel.addEventListener('click', () => {
-  modal.style.display = 'none';
+    modal.style.display = 'block';
+    const closeModel = document.getElementById('close_model');
+    if (closeModel) {
+      closeModel.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    }
+  });
 });
