@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Added form validation in js.
+- Store formdata in localStorage to save the data user enters.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,11 +167,11 @@ You can deploy this project using github pages.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-👤 Nohain Islam
+👤 Cristhian Castilo
 
-- GitHub: [@githubhandle](https://github.com/Zafron047)
-- Twitter: [@twitterhandle](https://https//twitter.com/NohainZ)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
+- GitHub: [@githubhandle](https://github.com/Kal2403)
+- Twitter: [@twitterhandle](https://twitter.com/Kal24031992)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cristhian-castillo-41136322a/)
 
 Contributions, issues, and feature requests are welcome!
 

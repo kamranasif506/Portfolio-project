@@ -376,22 +376,16 @@ const formData = JSON.parse(localStorage.getItem('formData')) || {};
 
 function updateFormData(event) {
   const input = event.target;
-  const name = input.name;
-  const value = input.value;
+  const { name } = input;
+  const { value } = input;
   formData[name] = value;
-  localStorage.setItem('formData',JSON.stringify(formData));
+  localStorage.setItem('formData', JSON.stringify(formData));
 }
-form.addEventListener('input',updateFormData);
+form.addEventListener('input', updateFormData);
 
-for (const field in formData) {
-  if (Object.hasOwnProperty.call(formData, field)) {
-    const input = form.elements[field];
-    if (input) {
-      if (input.type === 'textarea') {
-        input.value = formData[field];
-      } else {
-        input.value = formData[field];
-      }
-    }
+Object.keys(formData).forEach((field) => {
+  const input = form.elements[field];
+  if (input && input.type !== 'checkbox' && input.type !== 'radio') {
+    input.value = formData[field];
   }
-}
+});
