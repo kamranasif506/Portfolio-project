@@ -382,3 +382,16 @@ function updateFormData(event) {
   localStorage.setItem('formData',JSON.stringify(formData));
 }
 form.addEventListener('input',updateFormData);
+
+for (const field in formData) {
+  if (Object.hasOwnProperty.call(formData, field)) {
+    const input = form.elements[field];
+    if (input) {
+      if (input.type === 'textarea') {
+        input.value = formData[field];
+      } else {
+        input.value = formData[field];
+      }
+    }
+  }
+}
