@@ -306,3 +306,86 @@ Array.from(takeTour).forEach((takeTour) => {
     }
   });
 });
+
+const form = document.getElementById('formFields');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('message');
+const sendFeed = document.getElementById('send_feeed');
+const errorMessage = document.getElementById('error');
+
+function isValidEmail(email) {
+  const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  if (!emailRegex.test(email)) {
+    return false;
+  }
+  return true;
+}
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  let error = '';
+  const contact = document.getElementById('contact');
+
+  const errorBox = document.getElementById('error_div');
+  if (nameInput.value.trim() === '') {
+    error = 'Please enter your name';
+    errorMessage.innerHTML = error;
+    errorBox.style.display = 'block';
+    contact.style.height = '44.5rem';
+    sendFeed.style.top = '41rem';
+    nameInput.focus();
+    return;
+  }
+
+  if (emailInput.value.trim() === '') {
+    error = 'Please enter your email';
+    errorMessage.innerHTML = error;
+    errorBox.style.display = 'block';
+    contact.style.height = '44.5rem';
+    sendFeed.style.top = '41rem';
+    emailInput.focus();
+    return;
+  }
+
+  if (!isValidEmail(emailInput.value)) {
+    errorMessage.innerHTML = 'Your email should be in Lowercase';
+    errorBox.style.display = 'block';
+    contact.style.height = '44.5rem';
+    sendFeed.style.top = '41rem';
+    emailInput.focus();
+    return;
+  }
+
+  if (messageInput.value.trim() === '') {
+    error = 'Please enter your message';
+    errorMessage.innerHTML = error;
+    errorBox.style.display = 'block';
+    contact.style.height = '44.5rem';
+    sendFeed.style.top = '41rem';
+    messageInput.focus();
+    return;
+  }
+
+  errorMessage.innerHTML = '';
+  contact.style.height = '43.5rem';
+  sendFeed.style.top = '40rem';
+  form.submit();
+});
+
+const formData = JSON.parse(localStorage.getItem('formData')) || {};
+
+function updateFormData(event) {
+  const input = event.target;
+  const { name } = input;
+  const { value } = input;
+  formData[name] = value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+form.addEventListener('input', updateFormData);
+
+Object.keys(formData).forEach((field) => {
+  const input = form.elements[field];
+  if (input && input.type !== 'checkbox' && input.type !== 'radio') {
+    input.value = formData[field];
+  }
+});

@@ -282,6 +282,19 @@ body {
     display: none;
   }
 
+  .error-message {
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: red;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #error_div {
+    display: none;
+  }
+
   .nav-bar {
     display: flex;
     justify-content: center;
@@ -1016,7 +1029,7 @@ body {
     border-radius: 4px;
     height: 3.25rem;
     color: #1a2236;
-    padding-top: 1.438rem;
+    padding-top: 0.438rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -1057,6 +1070,7 @@ body {
     line-height: 0.96rem;
     color: #7d7c84;
   }
+
   .send_feeed {
     box-sizing: border-box;
     width: 76%;
@@ -1111,6 +1125,7 @@ body {
     width: 100%;
     background: #f9f9fa;
     height: 43.5rem;
+    padding-top: 15%;
   }
 
   .contact-form-section > h2 {
@@ -1122,7 +1137,6 @@ body {
     line-height: 100%;
     margin-top: 0;
     margin-bottom: 0;
-    text-align: center;
     color: #1a2236;
   }
 
@@ -1844,6 +1858,19 @@ body {
 
   .input-name:focus {
     border: 1px solid #1a2236 !important;
+  }
+
+  .error-message {
+    position: absolute;
+    left: 1rem;
+    top: 39rem;
+    color: #1a2236;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #error_div {
+    display: none;
   }
 
   .send_feeed {
