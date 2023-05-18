@@ -371,3 +371,14 @@ form.addEventListener('submit', (event) => {
   sendFeed.style.top = '40rem';
   form.submit();
 });
+
+const formData = JSON.parse(localStorage.getItem('formData')) || {};
+
+function updateFormData(event) {
+  const input = event.target;
+  const name = input.name;
+  const value = input.value;
+  formData[name] = value;
+  localStorage.setItem('formData',JSON.stringify(formData));
+}
+form.addEventListener('input',updateFormData);
