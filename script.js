@@ -2,7 +2,7 @@ const openNav = document.getElementById('bar_icon');
 const modal = document.getElementById('myModal');
 openNav.addEventListener('click', () => {
   document.getElementById('myNav').style.width = '100%';
-});
+});;
 
 const closeNav = document.getElementById('close_icon');
 closeNav.addEventListener('click', () => {
