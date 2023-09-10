@@ -72,7 +72,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://kamranasif506.github.io/Portfolio/)
+- [Live Demo Link](https://kamranasif506.github.io/Portfolio-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
